@@ -86,7 +86,7 @@ const Home = () => {
       <Nav onDiscoverMore={handleScrollToDataGrid}/>
       </div>
       <Banner onDiscoverMore={handleScrollToDataGrid} />
-      <div className='lg:sticky md:sticky  top-0 relative z-10' ref={dataGridRef}>
+      <div className='lg:sticky md:sticky  top-0 sticky z-10' ref={dataGridRef}>
 
       <SearchForm onSearch={handleSearch} />
       </div>
