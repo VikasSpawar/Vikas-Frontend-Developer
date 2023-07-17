@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* body{
-    background: url('./space.jpg');
+body{
+    /* background: url('./space.jpg'); */
+    background: url('https://static.vecteezy.com/system/resources/previews/007/120/314/non_2x/galaxy-background-with-falling-star-space-galaxy-illustration-free-vector.jpg');
     background-attachment: fixed;
     background-size: cover;
-} */
+}

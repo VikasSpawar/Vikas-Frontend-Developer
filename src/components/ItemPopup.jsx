@@ -15,7 +15,7 @@ const ItemPopup = ({ item, onClose }) => {
         <p> Details : {item.details}</p>
         <button
           onClick={onClose}
-          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md mt-4"
+          className="border hover:bg-opacity-50 text-white py-2 px-4 rounded-md mt-4"
         >
           Close
         </button>

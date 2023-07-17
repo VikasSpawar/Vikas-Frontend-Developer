@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-  <div className={`bg-[url('./space.jpg')] bg-fixed  bg-cover `}>
+  <div className={``}>
 
     <Home/>
   </div>
