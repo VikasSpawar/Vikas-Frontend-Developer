@@ -1,0 +1,44 @@
+#root {
+  text-align: center;
+  width: 100%;
+}
+
+.App{
+  @apply transition-all delay-150
+}
+
+
+.rocket-item {
+  transition: transform 0.3s ease-in-out;
+}
+
+.rocket-item.selected {
+  transform: scale(1.1);
+}
+
+.rocket-item.selected .rocket-image {
+  transform: rotateY(180deg) scale(1.1);
+}
+
+.rocket-item.selected .rocket-details {
+  transform: rotateY(-180deg);
+}
+
+.rocket-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.rocket-details {
+  transition: transform 0.3s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.rocket-details {
+  backface-visibility: hidden;
+}
+
+
+
+
+
+
